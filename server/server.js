@@ -27,8 +27,6 @@ app.post('/usuario', function(req, res) {
             persona: body
         });
     }
-
-
 })
 
 app.put('/usuario/:id', function(req, res) {
