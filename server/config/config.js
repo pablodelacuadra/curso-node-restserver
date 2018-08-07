@@ -17,3 +17,15 @@ if (process.env.NODE_ENV === 'dev') {
 }
 
 process.env.URLDB = urlDB;
+
+
+//Fecha de Expiracion token
+// 60 segundos
+// 60 minutos
+// 24 horas
+// 30 dias
+process.env.CADUCIDAD_TOKEN = 60 * 60 * 24 * 30;
+
+
+//Seed (semilla) de autenticacion
+process.env.SEED = process.env.SEED || 'seed-desarrollo';
